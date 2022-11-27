@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         phoneBox = findViewById(R.id.phoneBox);
         phoneBtn = findViewById(R.id.phoneBtn);
 
-        phoneBox.setOnClickListener(new View.OnClickListener() {
+        phoneBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
